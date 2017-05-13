@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Intersect Editor Language File - Beta 3.1 -->
+<Strings>
+	<Login>
+		<string id="title">Редактор Intersect. Вход</string>
+		<string id="version">Реактор v{00}</string>
+		<string id="gettingstarted">Как начать?
+		1. Запустите сервер
+		2. Открйте клиент и создайте аккаунт
+		3. Войдите под этим аккаунтом в редактор!</string>
+		<string id="username">Имя: </string>
+		<string id="password">Пароль: </string>
+		<string id="rememberme">Запомнить</string>
+		<string id="connecting">Подключение к серверу...</string>
+		<string id="connected">Подключен к серверу. Готов войти!</string>
+		<string id="failedtoconnect">Ошибка подключения. Повтор {00} сек.</string>
+		<string id="raptr">Пожалуйста, закройте AMD Gaming Evolved перед входом в редактор.</string>
+		<string id="login">Вход</string>
+	</Login>
+	<About>
+		<string id="title">О нас</string>
+		<string id="version">v{00}</string>
+		<string id="site">Click here to visit the Ascension Game Dev community for support, updates and more!</string>
+	</About>
+	<General>
+	  <!-- Used everywhere. Sounds on map, resource graphics, panoramas, item types, etc. English is None or No Selection. Choose whatever fits best in your language. Try to keep this the same across the client, editor, and server language files as well. -->
+		<string id="none">Нет</string>
+	</General>
+	<Options>
+		<string id="title">Опции</string>
+		<string id="generaltab">Основное</string>
+		<string id="tilesetwarning">Предупреждение. Большой размер тайлсета.</string>
+		<string id="pathgroup">Путь клиента</string>
+		<string id="browsebtn">Обзор</string>
+		<string id="dialogueheader">Browse for client...</string>
+		<string id="dialogueallfiles">Все файлы</string>
+	</Options>
+	<Directions>
+		<string id="-1">Retain Direction</string>
+		<string id="0">Верх</string>
+		<string id="1">Низ</string>
+		<string id="2">Лево</string>
+		<string id="3">Право</string>
+	</Directions>
+	<Combat>
+		<string id="exp">Опыт</string>
+		<string id="vital0">Здоровье</string>
+		<string id="vital1">Мана</string>
+		<string id="stat0">Урон</string>
+		<string id="stat1">Ability Power</string>
+		<string id="stat2">Защита</string>
+		<string id="stat3">Magic Resist</string>
+		<string id="stat4">Скорость</string>
+	</Combat>
+	<Warping>
+		<string id="map">Карта: {00}</string>
+		<string id="x">X: {00}</string>
+		<string id="y">Y: {00}</string>
+		<string id="direction">Направление: {00}</string>
+		<string id="visual">Открыть визуальный интерфейс</string>
+	</Warping>
+	<WarpSelection>
+		<string id="title">Выбор точки перемещения</string>
+		<string id="mapselectiontitle">Выбор карты</string>
+		<string id="mappreview">Предварительный просмотр</string>
+		<string id="chronological">Хронология</string>
+		<string id="maplist">Список карт</string>
+		<string id="okay">Ок</string>
+		<string id="cancel">Отмена</string>
+	</WarpSelection>
+	<Mapping>
+		<string id="editortitle">Редактор карт</string>
+		<string id="savemap">Сохранить текущую карту?</string>
+		<string id="savemapdialoguesure">Вы уверены, что хотите сохранить текущую карту?</string>
+		<string id="savemapdialogue">Вы хотите сохранить текущую карту?</string>
+		<string id="createmap">Создать новую карту.</string>
+		<string id="createmapdialogue">Вы уверены, что хотите создать новую карту здесь?</string>
+		<string id="diagonalwarning">Нельзя создавать карты по диагонали!</string>
+		<string id="filllayer">Залить слой</string>
+		<string id="filllayerdialogue">Вы уверены, что хотите залить слой?</string>
+		<string id="eraselayer">Очистить слой</string>
+		<string id="eraselayerdialogue">Вы уверены, что хотите очистить слой?</string>
+		<string id="newmap">Вы уверены, что хотите создать отдельную карту?</string>
+		<string id="newmapcaption">Новая карта</string>
+	</Mapping>
+	<MapGrid>
+		<string id="title">Карта мира (общая)</string>
+		<string id="screenshotworld">Сделать скриншот</string>
+		<string id="gridlines">Показать/скрыть сетку</string>
+		<string id="preview">Fetch Preview</string>
+		<string id="downloadmissing">Download Missing Previews</string>
+		<string id="downloadall">Re-Download All Previews</string>
+		<string id="unlink">Unlink Map</string>
+		<string id="link">Link Map</string>
+		<string id="recache">Recache Map</string>
+		<string id="savescreenshotdialogue">Сохранить скриншот мира?</string>
+		<string id="savescreenshottitle">Сохранить скриншот?</string>
+		<string id="savescreenshotconfirm">Выуверены, что хотите сохранить скриншот мира в тайл? Это может занять некторое время.</string>
+		<string id="savingscreenshot">Сохранение скриншота...</string>
+		<string id="savingrow">Saving Row: {00} / {01}</string>
+		<string id="fetchcaption">Fetch Preview?</string>
+		<string id="clearandfetch">Are you sure you want to clear the existing previews and fetch previews for each map on this grid? This could take several minutes based on the number of maps in this grid!</string>
+		<string id="justfetch">Are you sure you want to fetch previews for each map? This could take several minutes based on the number of maps in this grid!</string>
+		<string id="keepmapcache">Use your current settings with the map cache? (No to disable lighting/fogs/other effects)</string>
+		<string id="mapcachecaption">Map Cache Options</string>
+		<string id="fetchingmaps">Fetching Map Previews</string>
+		<string id="fetchingprogress">Fetching Maps {00} / {01}</string>
+		<string id="unlinkprompt">Are you sure you want to unlink map {00}?</string>
+		<string id="unlinkcaption">Unlink Map</string>
+	</MapGrid>
+	<MapList>
+		<string id="title">Список карт</string>
+		<string id="chronological">Order Chronologically</string>
+		<string id="selectcurrent">Выбрать текущую карту</string>
+		<string id="newmap">Новая карта</string>
+		<string id="newfolder">Новая папка</string>
+		<string id="rename">Переименовать</string>
+		<string id="delete">Удалить</string>
+		<string id="selecttodelete">Выберите карту или папку.</string>
+		<string id="selecttorename">Выберите карту или папку.</string>
+		<string id="deleteconfirm">Вы уверены, что хотите удалить {00}?</string>
+	</MapList>
+	<MapLayers>
+		<string id="title">Слои карты</string>
+		<string id="tiles">Тайлы</string>
+		<string id="attributes">Атрибуты</string>
+		<string id="lights">Свет</string>
+		<string id="events">События</string>
+		<string id="npcs">Мобы</string>
+		<string id="eventinstructions">Двойной клик на карте сощдаст событие.</string>
+		<string id="lightinstructions">Двойной клин на карте создаст освещение.</string>
+	</MapLayers>
+	<MapProperties>
+		<string id="title">Настройки карты</string>
+		<string id="general">Основное</string>
+		<string id="audio">Аудио</string>
+		<string id="lighting">Свет</string>
+		<string id="overlay">Наложение цвета</string>
+		<string id="fog">Туман</string>
+		<string id="misc">Звуки</string>
+		
+		<string id="name">Имя</string>
+		<string id="namedesc">Название этой карты.</string>
+		
+		<string id="zonetype">Тип зоны</string>
+		<string id="zonedesc">Это тип этой карты.</string>
+		<string id="zone0">Нормально</string>
+		<string id="zone1">Безопасно</string>
+		<string id="zone2">Арена</string>
+		
+		<string id="music">Музыка</string>
+		<string id="musicdesc">Выберите фоновую музыку для карты.</string>
+		
+		<string id="sound">Звук</string>
+		<string id="sounddesc">Звуковой эффет на этой карте.</string>
+		
+		<string id="isindoors">В помещении</string>
+		<string id="isindoorsdesc">Эта карта в помещении?</string>
+		
+		<string id="brightness">Яркость</string>
+		<string id="brightnessdesc">Выберите яркоть карты? (Диапозон: 0 to 100).</string>
+		
+		<string id="playerlightsize">Уровень света</string>
+		<string id="playerlightsizedesc">Уровень света от игрока? (В пикселях 0-1000)</string>
+		
+		<string id="playerlightexpand">Сгаживание света</string>
+		<string id="playerlightexpanddesc">Сглаживание светового эффекта (0.00 to 1.00)</string>
+		
+		<string id="playerlightintensity">Интенсивность света</string>
+		<string id="playerlightintensitydesc">Уровень света в самой яркой точке. (0 to 255)</string>
+		
+		<string id="playerlightcolor">Цвета света от игрока</string>
+		<string id="playerlightcolordesc">Выберите цвет? (Поумолчанию: Белый)</string>
+		
+		<string id="rhue">RHue</string>
+		<string id="rhuedesc">Количество красного (Уровень: 0 to 255)</string>
+		
+		<string id="ghue">GHue</string>
+		<string id="ghuedesc">Количество зеленого. (Уровень: 0 to 255)</string>
+		
+		<string id="bhue">BHue</string>
+		<string id="bhuedesc">Количество синего. (Уровень: 0 to 255)</string>
+		
+		<string id="ahue">AHue</string>
+		<string id="ahuedesc">Интенсивность цветового тона. (Уровень: 0 [transparent/invisible] to 255 [видно/не видно карту])</string>
+		
+		<string id="fog">Туман</string>
+		<string id="fogdesc">Выберите изображение тумана.</string>
+		
+		<string id="fogxspeed">Туман X</string>
+		<string id="fogxspeeddesc">Скорость тумана по оси Х(Уровень: -5 to 5)</string>
+		
+		<string id="fogyspeed">Туман Y</string>
+		<string id="fogyspeeddesc">Скорость тумана по оси Y(Уровень: -5 to 5)</string>
+		
+		<string id="fogalpha">Интенсивность</string>
+		<string id="fogalphadesc">Выберите интенсивность тумана. (Уровень: 0 [transparent/invisible] to 255 [нет/есть туман])</string>
+		
+		<string id="panorama">Панорама</string>
+		<string id="panormadesc">Это панорманое изображение вместо карты.</string>
+		
+		<string id="overlaygraphic">Изображение перекрытия</string>
+		<string id="overlaygraphicdesc">Это изображение, которое появляется над картой. (не отображается в редакторе)</string>
+	</MapProperties>
+	<Tiles>
+		<string id="layer">Слои:</string>
+		<string id="tileset">Тайлсет:</string>
+		<string id="tiletype">Тип тайла:</string>
+		<string id="layer0">Земля</string>
+		<string id="layer1">Маска</string>
+		<string id="layer2">Маска 2</string>
+		<string id="layer3">Перекрытие</string>
+		<string id="layer4">Перекрытие 2</string>
+		<string id="normal">Норм</string>
+		<string id="autotile">Автотайл     [VX Format]</string>
+		<string id="fake">Фейк        [VX Format]</string>
+		<string id="animated">Анимация  [VX Format]</string>
+		<string id="cliff">Скала           [VX Format]</string>
+		<string id="waterfall">Вода   [VX Format]</string>
+		<string id="autotilexp">Автотайл    [XP Format]</string>
+		<string id="animatedxp">Анимация  [XP Format]</string>
+	</Tiles>
+	<Attributes>
+		<string id="blocked">Блок</string>
+		<string id="zdimension">Z-Dimension</string>
+		<string id="npcavoid">NPC избегают</string>
+		<string id="warp">Перемещение</string>
+		<string id="itemspawn">Вещь</string>
+		<string id="mapsound">Звук</string>
+		<string id="resourcespawn">Ресурс</string>
+		<string id="mapanimation">Анимация</string>
+		<string id="grapple">Grapple Stone</string>
+		<string id="slide">Слайд</string>
+		
+		<!-- Z-Dimension -->
+		<string id="zgateway">Дверь</string>
+		<string id="zblock">Блок</string>
+		<string id="znone">Нет</string>
+		<string id="zlevel1">Уровень 1</string>
+		<string id="zlevel2">Уровень 2</string>
+		
+		<!-- Warping (Uses Warping) -->
+		
+		<!-- Item Spawn -->
+		<string id="item">Вещь:</string>
+		<string id="quantity">Количество:</string>
+		
+		<!-- Map Sound -->
+		<string id="sound">Звук:</string>
+		<string id="distance">Дальность звука (В тайлах):</string>
+		
+		<!-- Resource (Uses Z-Dimension Translations) -->
+		<string id="resource">Ресурс:</string>
+		
+		<!-- Animation -->
+		<string id="animation">Анимация:</string>
+		
+		<!-- Slide (Uses Directions) -->
+		<string id="dir">Направление:</string>
+	</Attributes>
+	<NpcSpawns>
+		<string id="spawnrandom">Точка появления: Случайно</string>
+		<string id="spawndeclared">Точка появления: Выбрана</string>
+		<string id="declaredlocation">Выбрать</string>
+		<string id="randomlocation">Случайно</string>
+		<string id="direction">Направление:</string>
+		<string id="randomdirection">Случайно</string>
+		<string id="addremove">Добавить/удалить моба</string>
+		<string id="add">Добавить</string>
+		<string id="remove">Удалить</string>
+	</NpcSpawns>
+	<LightEditor>
+		<string id="title">Редактор освещения</string>
+		<string id="xoffset">Рассеивание X:</string>
+		<string id="yoffset">Рассеивание Y:</string>
+		<string id="color">Цвет:</string>
+		<string id="selectcolor">Выбрать цвет</string>
+		<string id="intensity">Интенсивность:</string>
+		<string id="size">Размер:</string>
+		<string id="expandamt">Рассеивание:</string>
+		<string id="save">Сохранить</string>
+		<string id="revert">Отмена</string>
+	</LightEditor>
+	<ProgressForm>
+		<string id="cancel">Выход</string>
+	</ProgressForm>
+	<MainForm>
+		<string id="title">Редактор - {00}</string>
+		<string id="file">Файл</string>
+		<string id="savemap">Сохранить</string>
+		<string id="newmap">Новая карта</string>
+		<string id="importmap">Импорт</string>
+		<string id="exportmap">Экспорт</string>
+		<string id="options">Опции</string>
+		<string id="exit">Выход</string>
+		<string id="edit">Редактор</string>
+		<string id="undo">Назад</string>
+		<string id="redo">Вперед</string>
+		<string id="cut">Вырезать</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="fill">Залить</string>
+		<string id="erase">Очистить</string>
+		<string id="selectlayers">Выбор...</string>
+		<string id="alllayers">Все слои</string>
+		<string id="currentonly">Текущий слой</string>
+		<string id="view">Вид</string>
+		<string id="darkness">Темнота</string>
+		<string id="fog">Туман</string>
+		<string id="overlay">Перекрытие</string>
+		<string id="tilepreview">Показывать тайл</string>
+		<string id="resources">Ресурсы</string>
+		<string id="grid">Сетку</string>
+		<string id="editors">Игровые редакторы</string>
+		<string id="animationeditor">Редактор анимации</string>
+		<string id="classeditor">Редактор классов</string>
+		<string id="commoneventeditor">Редактор стартового события</string>
+		<string id="craftingbencheditor">Редактор крафта</string>
+		<string id="itemeditor">Редактор вещей</string>
+		<string id="npceditor">Редактор мобов</string>
+		<string id="projectileeditor">Редактор снарядов</string>
+		<string id="questeditor">Редактор квестов</string>
+		<string id="resourceeditor">Редактор ресурсов</string>
+		<string id="shopeditor">Редактор магазинов</string>
+		<string id="spelleditor">Редактор умений</string>
+		<string id="switchvariableeditor">Редактор переключателей</string>
+		<string id="timeeditor">Редактор времени</string>
+		<string id="externaltools">Внешние инструменты</string>
+		<string id="toolsdir">Опции</string>
+		<string id="help">Help</string>
+		<string id="postquestion">Обратная связь</string>
+		<string id="reportbug">Отчет о ошибке</string>
+		<string id="about">О нас</string>
+		<string id="pen">Карандаш</string>
+		<string id="selection">Инструмент: Выбор</string>
+		<string id="rectangle">Инструмент: Прямоугольник</string>
+		<string id="droppler">Пипетка</string>
+		<string id="lighting">Симуляция дня и ночи.</string>
+		<string id="screenshot">Скриншот</string>
+		<string id="run">Клиент игры</string>
+		<string id="donate">Разработчикам на кофе :)</string>
+		
+		<string id="loc">CurX: {00}  CurY: {01}</string>
+		<string id="revision">Revision: {00}</string>
+		<string id="fps">FPS: {00}</string>
+	</MainForm>
+	<AnimationEditor>
+		<string id="title">Редактор анимаций</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить измениня</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="animations">Анимации</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="sound">Звук:</string>
+		<string id="simulatedarkness">Имитация темноты: {00}</string>
+		<string id="swap">Поменять верхний/нижний слой</string>
+		
+		<string id="lowergroup">Нижний слой </string>
+		<string id="lowergraphic">Графика:</string>
+		<string id="lowerhorizontalframes">Кадров по горизонтали:</string>
+		<string id="lowerverticalframes">Кадрова по вертикали:</string>
+		<string id="lowerframecount">Кадров анимации:</string>
+		<string id="lowerframeduration">Длительность кадра (мс):</string>
+		<string id="lowerloopcount">Циклов:</string>
+		<string id="lowerplayback">Повтор</string>
+		<string id="lowerframe">Повторов: {00}</string>
+		<string id="lowerplay">Играть меньше анимации</string>
+		<string id="lowerstop">Играть больше анимации</string>
+		<string id="lowerframeoptions">Опции</string>
+		<string id="lowerclone">Клон предыдущих</string>
+		
+		<string id="uppergroup">Верхний слой </string>
+		<string id="uppergraphic">Графика:</string>
+		<string id="upperhorizontalframes">Кадрова по горизонтали:</string>
+		<string id="upperverticalframes">Кадрова по вертикали:</string>
+		<string id="upperframecount">Кадрова анимации:</string>
+		<string id="upperframeduration">Длительность кадра (мс):</string>
+		<string id="upperloopcount">Циклов:</string>
+		<string id="upperplayback">Повтор</string>
+		<string id="upperframe">Повторов: {00}</string>
+		<string id="upperplay">Играть меньше анимации</string>
+		<string id="upperstop">Играть больше анимации</string>
+		<string id="upperframeoptions">Опции</string>
+		<string id="upperclone">Клон предыдущих</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</AnimationEditor>
+	<ClassEditor>
+		<string id="title">Редатор классов</string>
+		<string id="new">Новый класс</string>
+		<string id="delete">Удалить класс</string>
+		<string id="copy">Копировать класс</string>
+		<string id="paste">Вставить класс</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить класс</string>
+		<string id="deleteprompt">Вы действительно хотите удалить этот класс?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы действительно хотите отменить изменения?</string>
+		
+		<string id="classes">Классы</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="locked">Недоступен</string>
+		
+		<string id="spawnpoint">Точка появления</string>
+		
+		<string id="spriteface">Спрайт и портрет</string>
+		<string id="spriteoptions">Опции:</string>
+		<string id="spriteitemmale">{00}. {01} - М</string>
+		<string id="spriteitemfemale">{00}. {01} - Ж</string>
+		<string id="gender">Пол</string>
+		<string id="male">М</string>
+		<string id="female">Ж</string>
+		<string id="addicon">+</string>
+		<string id="removeicon">-</string>
+		<string id="sprite">Спрайт:</string>
+		<string id="face">Портрет:</string>
+		
+		<string id="items">Стартовые вещи</string>
+		<string id="itemindex">Номер вещи: {00}</string>
+		<string id="item">Вещь:</string>
+		<string id="amount">Значение:</string>
+		
+		
+		<string id="basestats">Базовые характеристики:</string>
+		<string id="basehp">HP:</string>
+		<string id="basemp">МР:</string>
+		<string id="baseattack">Атака:</string>
+		<string id="basearmor">Защита:</string>
+		<string id="basespeed">Скорость:</string>
+		<string id="baseabilitypower">Ability Pwr:</string>
+		<string id="basemagicresist">Magic Resist:</string>
+		<string id="basepoints">Очки:</string>
+		
+		<string id="learntspells">Навыки</string>
+		<string id="spell">Навык:</string>
+		<string id="spellitem">{00}. {01} - Уровень: {02}</string>
+		<string id="spelllevel">Уровень:</string>
+		<string id="addspell">Создать</string>
+		<string id="removespell">Удалить</string>
+		
+		<string id="regen">Восстановление</string>
+		<string id="hpregen">HP (%);</string>
+		<string id="mpregen">MP (%):</string>
+		<string id="regenhint">%  HP/MР восстанавливается.
+
+Tick timer saved in server config.xml.</string>
+
+		<string id="combat">Боевой (без оружия)</string>
+		<string id="basedamage">Базовый урон:</string>
+		<string id="critchance">Шанс крит. (%):</string>
+		<string id="damagetype">Тип урона:</string>
+		<string id="damagetype0">Физический</string>
+		<string id="damagetype1">Магический</string>
+		<string id="damagetype2">True</string>
+		<string id="scalingstat">Требования:</string>
+		<string id="scalingamount">Значение:</string>
+		<string id="attackanimation">Анимация атаки:</string>
+		
+		<string id="leveling">Повышение уровня</string>
+		<string id="levelexp">Требуется опыта:</string>
+		<string id="levelexpscale">Увеличение опыта (На уровень в %):</string>
+		<string id="levelboosts">Уровень повышает</string>
+		<string id="staticboost">Статический</string>
+		<string id="percentageboost">Процентный</string>
+		<string id="hpboost">Max HP (+{00}):</string>
+		<string id="mpboost">Max MP (+{00}):</string>
+		<string id="attackboost">Атака (+{00}):</string>
+		<string id="armorboost">Защита (+{00}):</string>
+		<string id="speedboost">Скорость (+{00}):</string>
+		<string id="abilitypowerboost">Ability Pwr (+{00}):</string>
+		<string id="magicresistboost">Magic Resist (+{00}):</string>
+		<string id="pointsboost">Очки (+):</string>
+		<string id="boostpercent"> %</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</ClassEditor>
+	<CraftingEditor>
+		<string id="title">Редактор крафта</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Уверены, что хотитеотменить изменения?</string>
+		
+		<string id="benches">Крафт</string>
+		
+		<string id="crafts">Крафт</string>
+		<string id="newcraft">Новый</string>
+		<string id="deletecraft">Удалить</string>
+		<string id="duplicatecraft">Дублировать</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="item">Вещь:</string>
+		<string id="time">Время (мс):</string>
+		
+		<string id="ingredients">Ингредиенты</string>
+		<string id="ingredientitem">Вещь:</string>
+		<string id="ingredientquantity">Количество:</string>
+		<string id="newingredient">Создать</string>
+		<string id="deleteingredient">Удалить</string>
+		<string id="duplicateingredient">Дублировать</string>
+		<string id="ingredientlistitem">Ингредиент: {00} x{01}</string>
+		<string id="ingredientnone">Нет</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Выход</string>
+	</CraftingEditor>
+	<DynamicRequirements>
+		<string id="title">Динамические требования</string>
+		<string id="conditionlists">Списки состояния</string>
+		<string id="addlist">Добавить</string>
+		<string id="removelist">Удалить</string>
+		<string id="savelists">Сохранить</string>
+		<string id="cancellists">Отмена</string>
+		<string id="conditionlist">Список условий</string>
+		<string id="listname">Имя:</string>
+		<string id="addcondition">Добавить</string>
+		<string id="removecondition">Удалить</string>
+		<string id="saveconditions">Ок</string>
+		<string id="cancelconditions">Отмена</string>
+		<string id="instructionsitem">Ниже указаны требования. Если все условия выполнены, игрок может использовать вещь.</string>
+		<string id="instructionsresource">Ниже указаны требования. Если все условия выполнены, игрок может добывать ресурс.</string>
+		<string id="instructionsspell">Ниже указаны требования. Если все условия выполнены, игрок моет использовать навык. </string>
+		<string id="instructionsquest">Ниже указаны требования. Если все условия выполнены, игрок может выполнить квест. </string>
+		<string id="instructionsevent">Ниже указаны требования. Если все условия выполнены, игрок может запустить событие. </string>
+		<string id="conditioneditor">Добавить/редактировать условие.</string>
+	</DynamicRequirements>
+	<ItemEditor>
+		<string id="title">Редактор вещей</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="items">Вещи</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="type">Тип:</string>
+		<string id="type0">Нет</string>
+		<string id="type1">Снаряжение</string>
+		<string id="type2">Расходники</string>
+		<string id="type3">Валюта</string>
+		<string id="type4">Навык</string>
+		<string id="type5">Событие</string>
+		<string id="type6">Сумка</string>
+		<string id="description">Описание:</string>
+		<string id="picture">Значок:</string>
+		<string id="price">Цена:</string>
+		<string id="animation">Анимация:</string>
+		<string id="bound">Привязка?</string>
+		<string id="stackable">Объединяется?</string>
+		<string id="requirements">Изменить требования</string>
+		
+		<string id="equipment">Снаряжение</string>
+		<string id="slot">Слот:</string>
+		
+		<string id="bonuses">Бонусы к статам</string>
+		<string id="attackbonus">Атака:</string>
+		<string id="defensebonus">Защита:</string>
+		<string id="speedbonus">Скорость:</string>
+		<string id="abilitypowerbonus">Ability Pwr:</string>
+		<string id="magicresistbonus">Magic Resist:</string>
+		<string id="bonusrange">Stat Bonus Range (+-):</string>
+		
+		<string id="bonuseffect">Бонусный эффект:</string>
+		<string id="bonuseffect0">Нет</string>
+		<string id="bonuseffect1">Уменьшает кулдаун</string>
+		<string id="bonuseffect2">Кража здоровья</string>
+		<string id="bonusamount">Значение эффекта (%):</string>
+		
+		<string id="weaponproperties">Параметры оружия</string>
+		<string id="twohanded">Двуручное</string>
+		<string id="basedamage">Базовый урон:</string>
+		<string id="critchance">Шанс крита (%):</string>
+		<string id="damagetype">Тип урона:</string>
+		<string id="damagetype0">Физический</string>
+		<string id="damagetype1">Магический</string>
+		<string id="damagetype2">Истинный</string>
+		<string id="scalingstat">Scaling Stat:</string>
+		<string id="scalingamount">Значение:</string>
+		<string id="attackanimation">Анимация атаки:</string>
+		<string id="projectile">Снаряд:</string>
+		<string id="tooltype">Тип инструмента:</string>
+		
+		<string id="malepaperdoll">Женский Paperdoll:</string>
+		<string id="femalepaperdoll">Мужской Paperdoll:</string>
+		
+		<string id="bagpanel">Сумка:</string>
+		<string id="bagslots">Кол-во слотов:</string>
+		
+		<string id="spellpanel">Навык</string>
+		<string id="spell">Навык:</string>
+		
+		<string id="eventpanel">Событие</string>
+		<string id="event">Событие:</string>
+		
+		<string id="consumeablepanel">Расходник</string>
+		<string id="vital">Восстановление:</string>
+		<string id="consumeinterval">Интервал:</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</ItemEditor>
+	<NpcEditor>
+		<string id="title">Редактор NPC</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="npcs">NPC</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="behavior">Поведение:</string>
+		<string id="behavior0">Атакует в ответ</string>
+		<string id="behavior1">Атакует всегда</string>
+		<string id="behavior2">Дружественный</string>
+		<string id="behavior3">Защитник</string>
+		<string id="sprite">Спрайт</string>
+		<string id="spawnduration">Время возрождения:</string>
+		<string id="sightrange">Дальность обзора:</string>
+		
+		<string id="stats">Статы:</string>
+		<string id="hp">HP:</string>
+		<string id="mana">Mana:</string>
+		<string id="attack">Атака:</string>
+		<string id="defense">Защита:</string>
+		<string id="speed">Скорость:</string>
+		<string id="abilitypower">Ability Pwr:</string>
+		<string id="magicresist">Magic Resist:</string>
+		<string id="exp">Опыт:</string>
+		
+		<string id="spells">Навыки</string>
+		<string id="spell">Навык:</string>
+		<string id="addspell">Создать</string>
+		<string id="removespell">Удалить</string>
+		<string id="frequency">Периодичность:</string>
+		<string id="frequency0">Не очень часто</string>
+		<string id="frequency1">Не часто</string>
+		<string id="frequency2">Норм</string>
+		<string id="frequency3">Часто</string>
+		<string id="frequency4">Очень часто</string>
+		
+		<string id="npcvsnpc">NPC vs NPC</string>
+		<string id="enabled">NPC vs NPC?</string>
+		<string id="attackallies">Атака союзников?</string>
+		<string id="npc">NPC:</string>
+		<string id="addhostility">Добавить</string>
+		<string id="removehostility">Удалить</string>
+
+		<string id="drops">Дроп</string>
+		<string id="dropindex">Выпадает: {00}</string>
+		<string id="dropitem">Вещь:</string>
+		<string id="dropamount">Значение:</string>
+		<string id="dropchance">Шанс (%):</string>
+		
+		<string id="combat">Бой</string>
+		<string id="basedamage">Урон:</string>
+		<string id="critchance">Шанс (%):</string>
+		<string id="damagetype">Тип урона:</string>
+		<string id="damagetype0">Физический</string>
+		<string id="damagetype1">Магический</string>
+		<string id="damagetype2">Истинный</string>
+		<string id="scalingstat">Scaling Stat:</string>
+		<string id="scalingamount">Значение:</string>
+		<string id="attackanimation">Анимация атаки:</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</NpcEditor>
+	<ProjectileEditor>
+		<string id="title">Редактор снарядов</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="projectiles">Снаряды</string>
+		
+		<string id="properties">Свойства</string>
+		<string id="name">Имя:</string>
+		<string id="speed">Скорость (мс):</string>
+		<string id="spawndelay">Задержка (мс):</string>
+		<string id="quantity">Количество:</string>
+		<string id="range">Дистанция:</string>
+		<string id="knockback">Отбрасывает:</string>
+		<string id="spell">Collision Spell:</string>
+		<string id="grapple">Grapple hook?</string>
+		<string id="homing">Самонаводящийся?</string>
+		
+		<string id="spawns">Снаряд</string>
+		
+		<string id="animations">Анимация</string>
+		<string id="animationline">[Spawn Range: {00} - {01}]  Animation: {02}</string>
+		<string id="animation">Анимация:</string>
+		<string id="spawnrange">Spawn Range: {00} - {01}</string>
+		<string id="autorotate">Автоповтор анимации?</string>
+		<string id="addanimation">Создать</string>
+		<string id="removeanimation">Удалить</string>
+		
+		<string id="collisions">Игнор столкновения:</string>
+		<string id="ignoreblocks">Игнор блока</string>
+		<string id="ignoreactiveresources">Игнор активных ресурсов</string>
+		<string id="ignoreinactiveresources">Игнор неактивных ресурсов</string>
+		<string id="ignorezdimension">Игнор Z-Dimension Blocks</string>
+		
+		<string id="ammo">Требования:</string>
+		<string id="ammoitem">Вещь:</string>
+		<string id="ammoamount">Значение:</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</ProjectileEditor>
+	<QuestEditor>
+		<string id="title">Редактор квестов</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">ОТменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите изменить изменения?</string>
+		
+		<string id="quests">Квест</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="logoptions">Опции лога</string>
+		<string id="showbefore">Show in quest log before accepting quest?</string>
+		<string id="showafter">Show in quest log after completing quest?</string>
+		<string id="options">Настройки прогресса</string>
+		<string id="repeatable">Повторяемый квест?</string>
+		<string id="quit">Можно отказаться от квеста?</string>
+		<string id="beforeofferdesc">Описание до начала:</string>
+		<string id="offerdesc">Описание по окончанию:</string>
+		<string id="inprogressdesc">Описание в процессе выполнения:</string>
+		<string id="completeddesc">Описание при успешном заверении:</string>
+		
+		<string id="requirements">Требования</string>
+		<string id="editrequirements">Редактирование</string>
+		
+		<string id="actions">Действия:</string>
+		<string id="onstart">Начало:</string>
+		<string id="editstartevent">Редактировать событие</string>
+		<string id="onend">Окончание:</string>
+		<string id="editendevent">Редактировать событие</string>
+		
+		<string id="startevent">Quest {00} Start Event</string>
+		<string id="endevent">Quest {00} Completion Event</string>
+		
+		<string id="tasks">Задание</string>
+		<string id="addtask">Добавить</string>
+		<string id="removetask">Удалить</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</QuestEditor>
+	<TaskEditor>
+		<string id="title">Добавить/редактировать</string>
+		<string id="editor">Редактор заданий</string>
+		
+		<string id="type">Тип задания:</string>
+		<string id="type0">Событие</string>
+		<string id="type1">Собрать вещи</string>
+		<string id="type2">Убить NPC</string>
+		
+		<string id="desc">Описание:</string>
+		
+		<string id="killnpcs">Убить NPC</string>
+		<string id="npc">NPC:</string>
+		<string id="npcamount">Количество:</string>
+		
+		<string id="gatheritems">Собрать вещи</string>
+		<string id="item">Вещь:</string>
+		<string id="gatheramount">Количество:</string>
+		
+		<string id="eventdriven">Event Driven: The description should lead the player to an event. The event will then complete the task using the complete quest task command.</string>
+		
+		<string id="editcompletionevent">Редактировать сообщение окончания квеста</string>
+		<string id="completionevent">Сообщение окончания квеста</string>
+		
+		<string id="ok">Ок</string>
+		<string id="cancel">Отмена</string>
+	</TaskEditor>
+	<ResourceEditor>
+		<string id="title">Редактор ресурсов</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="resources">Ресурсы</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="tooltype">Тип инструмента:</string>
+		<string id="minhp">Min HP:</string>
+		<string id="maxhp">Max HP:</string>
+		<string id="spawnduration">Времяперерождения:</string>
+		<string id="animation">Анимация:</string>
+		<string id="walkablebefore">Проходимый до добычи ресурса?</string>
+		<string id="walkableafter">Проходимый после добычи ресурса?</string>
+		<string id="requirements">Требования</string>
+		
+		<string id="drops">Добыча</string>
+		<string id="dropindex">Добыча: {00}</string>
+		<string id="dropitem">Вещь:</string>
+		<string id="dropamount">Количество:</string>
+		<string id="dropchance">Шанс (%):)</string>
+		
+		<string id="graphics">Графика</string>
+		<string id="initialgraphic">До:</string>
+		<string id="exhaustedgraphic">После:</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</ResourceEditor>
+	<ShopEditor>
+		<string id="title">Редактор магазинов</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хотите удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="shops">Магазин</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="defaultcurrency">Валюта:</string>
+		
+		<string id="itemssold">Витрина</string>
+		<string id="addlabel">Добавить вещи:</string>
+		<string id="sellfor">Продать:</string>
+		<string id="sellcost">Стоимость:</string>
+		<string id="addsolditem">Добавить</string>
+		<string id="removesolditem">Удалить</string>
+		
+		<string id="itemsboughtwhitelist">Магазин покупает (белый список)  </string>
+		<string id="itemsboughtblacklist">Магазин не покупает (черный список)  </string>
+		<string id="whitelist">Белый список</string>
+		<string id="blacklist">Черный список</string>
+		<string id="addboughtitem">Добавить:</string>
+		<string id="buyfor">Купить:</string>
+		<string id="buycost">Цена:</string>
+		<string id="addboughtitem">Добавить</string>
+		<string id="removeboughtitem">Удалить</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отменить</string>
+	</ShopEditor>
+	<SpellEditor>
+		<string id="title">Редактор навыков</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="copy">Копировать</string>
+		<string id="paste">Вставить</string>
+		<string id="undo">Отменить изменения</string>
+		
+		<string id="deletetitle">Удалить</string>
+		<string id="deleteprompt">Вы уверены, что хоитте удалить?</string>
+		<string id="undotitle">Отменить изменения</string>
+		<string id="undoprompt">Вы уверены, что хотите отменить изменения?</string>
+		
+		<string id="spells">Навыки</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="type">Тип:</string>
+		<string id="type0">Боевое умение</string>
+		<string id="type1">Перемещение на локацию</string>
+		<string id="type2">Перемещение к цели</string>
+		<string id="type3">Бросок</string>
+		<string id="type4">Событие</string>
+		<string id="icon">Значок:</string>
+		<string id="description">Описание:</string>
+		<string id="castanimation">Анимация приминения:</string>
+		<string id="hitanimation">Анимация навыка:</string>
+		
+		<string id="requirements">Требования</string>
+		<string id="requirementsbutton">Редактировать</string>
+		
+		<string id="cost">Стоимость:</string>
+		<string id="hpcost">HP треб.:</string>
+		<string id="manacost">Mana треб.:</string>
+		<string id="casttime">Время каста (мс):</string>
+		<string id="cooldown">Кулдаун (мс):</string>
+		
+		<string id="targetting">Инфо</string>
+		<string id="targettype">Тип:</string>
+		<string id="targettype0">На себя</string>
+		<string id="targettype1">Одиночная цель (включая себя)</string>
+		<string id="targettype2">AOE</string>
+		<string id="targettype3">Линейно (снаряд)</string>
+		<string id="projectile">Снаряд:</string>
+		<string id="castrange">Дальность (тайлов):</string>
+		<string id="hitradius">Радиус:</string>
+		
+		<string id="dash">Бросок</string>
+		<string id="dashrange">Дальность (тайлов): {00}</string>
+		<string id="dashcollisions">Игнорировать:</string>
+		<string id="ignoreblocks">Блок</string>
+		<string id="ignoreactiveresources">Активные ресурсы</string>
+		<string id="ignoreinactiveresources">Неактивные ресурсы</string>
+		<string id="ignorezdimension">Z-Dimension Blocks</string>
+		
+		<string id="warptomap">Перемещение:</string>
+		
+		<string id="event">Событие</string>
+		<string id="eventlabel">Событие:</string>
+		
+		<string id="combatspell">Боевой навык</string>
+		<string id="damagegroup">Урон</string>
+		<string id="friendly">Дружественный</string>
+		<string id="hpdamage">HP урон:</string>
+		<string id="mpdamage">Mana урон:</string>
+		<string id="critchance">Шанс крита (%):</string>
+		<string id="damagetype">Тип урона:</string>
+		<string id="damagetype0">Физический</string>
+		<string id="damagetype1">Магический</string>
+		<string id="damagetype2">Истинный</string>
+		<string id="scalingstat">Scaling Stat:</string>
+		<string id="scalingamount">Scaling Amount:</string>
+		
+		<string id="hotdot">Лечение урон по времени</string>
+		<string id="ishotdot">Лечение/урон по времени?</string>
+		<string id="hotdottick">Время (ms):</string>
+		
+		<string id="stats">Модификатор</string>
+		<string id="attack">Атака:</string>
+		<string id="defense">Защита:</string>
+		<string id="speed">Скорость:</string>
+		<string id="abilitypower">Ability Pwr:</string>
+		<string id="magicresist">Magic Resist:</string>
+		
+		<string id="boostduration">Улучшение статов/продолжительность эффекта</string>
+		<string id="duration6">Улучшение статов/продолжительность эффекта</string>
+		<string id="effectgroup">Эффект</string>
+		<string id="effectlabel">Дополнительный эффект:</string>
+		<string id="effect0">Нет</string>
+		<string id="effect1">Оглушение</string>
+		<string id="effect2">Контузия</string>
+		<string id="effect3">Ловушка</string>
+		<string id="effect4">Ослепление</string>
+		<string id="effect5">Стелс</string>
+		<string id="effect6">Превращение</string>
+		<string id="transformsprite">Спрайт:</string>
+		
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отменить</string>
+	</SpellEditor>
+	<SwitchVariableEditor>
+		<string id="title">Редактор переключателей</string>
+		<string id="type">Тип</string>
+		<string id="list">Список</string>
+		
+		<string id="playerswitches">Переключатель для игрока</string>
+		<string id="playervariables">Переменные для игрока</string>
+		<string id="globalswitches">Глобальный переключатель</string>
+		<string id="globalvariables">Глоальные переменные</string>
+		
+		<string id="editor">Редактор</string>
+		<string id="playerswitch">Переключатель для игрока</string>
+		<string id="playervariable">Переменные для игрока</string>
+		<string id="globalswitch">Переключатель сервера</string>
+		<string id="globalvariable">Переменная сервера</string>
+		
+		<string id="name">Имя:</string>
+		<string id="value">Значение:</string>
+		<string id="true">True</string>
+		<string id="false">False</string>
+		
+		<string id="deleteprompt">Вы уверены, что хотите удалить переменную?</string>
+		<string id="deletecaption">Удалить?</string>
+		<string id="new">Создать</string>
+		<string id="delete">Удалить</string>
+		<string id="undo">Отменить изменения</string>
+		<string id="save">Сохранить</string>
+		<string id="cancel">Отмена</string>
+	</SwitchVariableEditor>
+	<TimeEditor>
+		<string id="title">Time Editor (Day/Night Settings)</string>
+		<string id="times">Time of Day</string>
+		<string id="to">t</string>
+		<string id="settings">Time Settings</string>
+		<string id="intervals">Invervals:</string>
+		<string id="interval0">24 hours</string>
+		<string id="interval1">12 hours</string>
+		<string id="interval2">8 hours</string>
+		<string id="interval3">6 hours</string>
+		<string id="interval4">4 hours</string>
+		<string id="interval5">3 hours</string>
+		<string id="interval6">2 hours</string>
+		<string id="interval7">1 hour</string>
+		<string id="interval8">45 minutes</string>
+		<string id="interval9">30 minutes</string>
+		<string id="interval10">15 minutes</string>
+		<string id="interval11">10 minutes</string>
+		<string id="sync">Sync With Server</string>
+		<string id="rate">Time Rate:</string>
+		<string id="ratesuffix">x Normal</string>
+		<string id="ratedesc">Enter 1 for normal rate of time.
+Values larger than one for faster days. 
+Values between 0 and 1 for longer days. 
+Negative values for time to flow backwards.</string>
+		<string id="overlay">Range Overlay</string>
+		<string id="brightness">Brightness: {00}%</string>
+		<string id="colorpaneldesc">Double click the panel above to change the overlay color.</string>
+		<string id="save">Save</string>
+		<string id="cancel">Cancel</string>
+	</TimeEditor>
+	<CommonEventEditor>
+		<string id="title">Common Event Editor</string>
+		<string id="events">Common Events</string>
+		<string id="new">New</string>
+		<string id="delete">Delete</string>
+	</CommonEventEditor>
+	<EventEditor>
+		<string id="title">Редактор событий - Событие #{00}: {01}</string>
+		
+		<string id="general">Основное</string>
+		<string id="name">Имя:</string>
+		<string id="global">Глобальное событие</string>
+		
+		<string id="pageoptions">Страница опций</string>
+		<string id="newpage">Создать</string>
+		<string id="copypage">Копировать</string>
+		<string id="pastepage">Вставить</string>
+		<string id="deletepage">Удалить</string>
+		<string id="clearpage">Очистить</string>
+		
+		<string id="conditions">Условия</string>
+		<string id="editconditions">Условия начала/выполнения</string>
+		
+		<string id="entityoptions">Параметры</string>
+		<string id="eventpreview">Превью</string>
+		<string id="animation">Анимация</string>
+		
+		<string id="movement">Движение</string>
+		<string id="movementtype">Тип:</string>
+		<string id="setroute">Маршрут...</string>
+		<string id="movetype0">Нет</string>
+		<string id="movetype1">Случайно</string>
+		<string id="movetype2">Заданный маршрут</string>
+		<string id="speed">Скорость:</string>
+		<string id="speed0">Самый медленный</string>
+		<string id="speed1">Медленный</string>
+		<string id="speed2">Норм</string>
+		<string id="speed3">Быстрый</string>
+		<string id="speed4">Очень быстрый</string>
+		
+		<string id="frequency">Периодичность:</string>
+		<string id="frequency0">Очень редко</string>
+		<string id="frequency1">Редко</string>
+		<string id="frequency2">Норм</string>
+		<string id="frequency3">Часто</string>
+		<string id="frequency4">Очень часто</string>
+		
+		<string id="layer">Слой:</string>
+		<string id="layer0">Ниже игрока</string>
+		<string id="layer1">На слое с игроком</string>
+		<string id="layer2">Над игроком</string>
+		
+		<string id="inspector">Entity Inspector Options</string>
+		<string id="disableinspector">Disable Inspector</string>
+		<string id="inspectordesc">Описание:</string>
+		<string id="face">Портрет:</string>
+		
+		<string id="extras">Extras:</string>
+		<string id="passable">Passable</string>
+		<string id="hidename">Hide Name</string>
+		<string id="directionfix">Dir Fix</string>
+		<string id="walkinganim">Walking Anim</string>
+		<string id="interactionfreeze">Interaction Freeze</string>
+		
+		<string id="trigger">Trigger</string>
+		<string id="trigger0">Action Button</string>
+		<string id="trigger1">Player Touch</string>
+		<string id="trigger2">Autorun</string>
+		<string id="trigger3">Projectile Hit</string>
+		
+		<string id="projectile">Projectile:</string>
+		
+		
+		<string id="commontrigger0">None</string>
+		<string id="commontrigger1">Login</string>
+		<string id="commontrigger2">Level Up</string>
+		
+		<string id="commandlist">Commands:</string>
+		<string id="addcommand">Add Commands</string>
+		
+		<string id="insertcommand">Insert</string>
+		<string id="editcommand">Edit</string>
+		<string id="deletecommand">Delete</string>
+
+		<string id="save">Save</string>
+		<string id="cancel">Cancel</string>
+		
+		<string id="savecaption">Save Event?</string>
+		<string id="savedialogue">Do you want to save changes to this event?</string>
+	</EventEditor>
+	<EventCommandList>
+		<string id="invalid">Invalid Command</string>
+		<string id="unknown">Unknown Command</string>
+		<string id="linestart">@> </string>
+		<string id="whenoption">When [{00}]</string>
+		<string id="endoptions">End Options</string>
+		
+		<string id="conditionalelse">Else</string>
+		<string id="conditionalend">End Branch</string>
+		
+		<string id="spellsucceeded">Spell Taught/Removed Successfully</string>
+		<string id="spellfailed">Spell Not Taught/Moved (Already Knew/Spellbook full/Didn't Know)</string>
+		<string id="endspell">End Spell Change</string>
+		
+		<string id="itemschanged">Item(s) Given/Taken Successfully</string>
+		<string id="itemnotchanged">Item(s) Not Given/Taken (Doesn't have/Inventory full)</string>
+		<string id="enditemchange">End Item Change</string>
+		
+		<string id="queststarted">Quest Accepted/Started Successfully</string>
+		<string id="questnotstarted">Quest Declined or Failed to Start (Reqs not met, already started, etc)</string>
+		<string id="endstartquest">End Start Quest</string>
+		
+		<string id="showtext">Show Text: {00}</string>
+		<string id="showoptions">Show Options: {00}</string>
+		
+		<string id="chatboxtext">Show Chatbox Text [Channel: {00}, Color: {01}] - {02}</string>
+		<string id="chatplayer">Player</string>
+		<string id="chatlocal">Local</string>
+		<string id="chatglobal">Global</string>
+		
+		<string id="playerswitch">Set Player Switch {00} to {01}</string>
+		<string id="globalswitch">Set Global Switch {00} to {01}</string>
+		<string id="true">True</string>
+		<string id="false">False</string>
+		
+		<string id="playervariable">Set Player Variable {00} ({01})</string>
+		<string id="globalvariable">Set Global Variable {00} ({01})</string>
+		<string id="setvariable">Set to {00}</string>
+		<string id="addvariable">Add {00}</string>
+		<string id="subtractvariable">Subtract {00}</string>
+		<string id="randvariable">Random Number {00} to {01}</string>
+		
+		<string id="selfswitch">Set Self Switch {00} to {01}</string>
+		<string id="selfswitch0">A</string>
+		<string id="selfswitch1">B</string>
+		<string id="selfswitch2">C</string>
+		<string id="selfswitch3">D</string>
+		
+		<string id="conditionalbranch">Conditional Branch: [{00}]</string>
+		<string id="exitevent">Exit Event Processing</string>
+		<string id="label">Label: {00}</string>
+		<string id="gotolabel">Go to Label {00}</string>
+		<string id="commonevent">Start Common Event: {00}</string>
+		<string id="restorehp">Restore Player HP</string>
+		<string id="restoremp">Restore Player MP</string>
+		<string id="levelup">Level Up Player</string>
+		<string id="giveexp">Give Player {00} Experience</string>
+		<string id="setlevel">Set Player Level To: {00}</string>
+		<string id="changespells">Change Player Spells [{00}]</string>
+		<string id="teach">Teach: Spell {00}</string>
+		<string id="forget">Remove: Spell {00}</string>
+		<string id="changeitems">Change Player Items [{00}]</string>
+		<string id="give">Give: Item {00}</string>
+		<string id="take">Take: Item {00}</string>
+		<string id="setsprite">Set Player Sprite to {00}</string>
+		<string id="setface">Set Player Face to {00}</string>
+		<string id="setgender">Set Player Gender to {00}</string>
+		<string id="male">Male</string>
+		<string id="female">Female</string>
+		<string id="setaccess">Set Player Access to {00}</string>
+		<string id="regularuser">Regulator User</string>
+		<string id="moderator">Moderator</string>
+		<string id="admin">Owner/Developer</string>
+		<string id="unknownrole">Unknown Access</string>
+		<string id="warp">Warp Player [Map: {00} X: {01} Y: {02} Dir: {03}]</string>
+		<string id="mapnotfound">NOT FOUND</string>
+		<string id="moveroute">Set Move Route for {00}</string>
+		<string id="waitforroute">Wait for Move Route Completion of {00}</string>
+		<string id="moverouteplayer">Player</string>
+		<string id="moverouteevent">Event #{00} {01}</string>
+		<string id="deletedevent">Deleted Event!</string>
+		<string id="holdplayer">Hold Player</string>
+		<string id="releaseplayer">Release Player</string>
+		<string id="spawnnpc">Spawn Npc {00} {01}</string>
+		<string id="spawnonmap">[On Map {00} X: {01} Y: {02} Dir: {03}]</string>
+		<string id="spawnonplayer">On Player [X Offset: {00} Y Offset: {01} Dir: {02}]</string>
+		<string id="spawnonevent">On Event #{00} {01} [X Offset: {02} Y Offset: {03} Dir: {04}]</string>
+		<string id="despawnnpcs">Despawn NPCs</string>
+		<string id="playanimation">Play Animation {00} {01}</string>
+		<string id="animationonmap">[On Map {00} X: {01} Y: {02} Dir: {03}]</string>
+		<string id="animationonplayer">On Player [X Offset: {00} Y Offset: {01} {02}]</string>
+		<string id="animationonevent">On Event #{00} {01} [X Offset: {02} Y Offset: {03} {04}]</string>
+		<string id="animationrelativedir">Spawn Relative To Direction</string>
+		<string id="animationrotatedir">Rotate Relative To Direction</string>
+		<string id="animationrelativerotate">Spawn And Rotate Relative To Direction</string>
+		<string id="playbgm">Play BGM [File: {00}]</string>
+		<string id="fadeoutbgm">Fadeout BGM</string>
+		<string id="playsound">Play Sound [File: {00}]</string>
+		<string id="stopsounds">Stop Sounds</string>
+		<string id="wait">Wait {00}ms</string>
+		<string id="openbank">Open Bank</string>
+		<string id="openshop">Open Shop [{00}]</string>
+		<string id="opencrafting">Open Crafting Bench [{00}]</string>
+		<string id="setclass">Set Class [{00}]</string>
+		<string id="startquest">Start Quest [{00}, {01}]</string>
+		<string id="forcedstart">Forced Start</string>
+		<string id="showoffer">Show Offer Window</string>
+		<string id="completetask">Complete Quest Task [Quest: {00}, Task: {01}]</string>
+		<string id="taskundefined">Undefined</string>
+		<string id="endquest">End Quest [{00}, {01}]</string>
+		<string id="runcompletionevent">Running Completion Event</string>
+		<string id="skipcompletionevent">Without Running Completion Event</string>
+		
+		<string id="notcommon">Cannot use this command in common events.</string>	
+		<string id="notcommoncaption">Common Event Warning!</string>
+	</EventCommandList>
+	<EventConditionDesc>
+		<string id="true">True</string>
+		<string id="false">False</string>
+		<string id="level">Level</string>
+		<string id="selfswitch0">A</string>
+		<string id="selfswitch1">B</string>
+		<string id="selfswitch2">C</string>
+		<string id="selfswitch3">D</string>
+		<string id="equal">is equal to {00}</string>
+		<string id="greaterequal">is greater than or equal to {00}</string>
+		<string id="lessthanequal">is less than or equal to {00}</string>
+		<string id="greater">is greather than {00}</string>
+		<string id="lessthan">is less than {00}</string>
+		<string id="notequal">does not equal {00}</string>
+		<string id="modadmin">Mod or Admin</string>
+		<string id="admin">Admin</string>
+		<string id="timeinvalid">invalid</string>
+		<string id="male">Male</string>
+		<string id="female">Female</string>
+		
+		<string id="playerswitch">Player Switch {00} is {01}</string>
+		<string id="playervariable">Player Variable {00} {01}</string>
+		<string id="globalswitch">Global Switch {00} is {01}</string>
+		<string id="globalvariable">Global Variable {00} {01}</string>
+		<string id="hasitem">Player has at least {00} of Item {01}</string>
+		<string id="class">Player's class is {00}</string>
+		<string id="knowsspell">Player knows Spell {00}</string>
+		<string id="levelorstat">{00} {01}</string>
+		<string id="selfswitch">Self Switch {00} is {01}</string>
+		<string id="power">Player's Power is {00}</string>
+		<string id="time">Time is between {00} and {01}</string>
+		<string id="startquest">Can Start Quest: {00}</string>
+		<string id="questinprogress">Quest In Progress: {00} {01}</string>
+		<string id="beforetask">, Before Task: {00}</string>
+		<string id="aftertask">, After Task: {00}</string>
+		<string id="ontask">, On Task: {00}</string>
+		<string id="onanytask">, On Any Task</string>
+		<string id="questcompleted">Quest is Completed: {00}</string>
+		<string id="playerdeath">Player Death</string>
+		<string id="nonpcsonmap">No NPCs on the map</string>
+		<string id="gender">Player's Gender is {00}</string>
+	</EventConditionDesc>
+	<EventGraphic>
+		<string id="title">Graphic Selector</string>
+		<string id="type">Graphic Type:</string>
+		<string id="graphictype0">None</string>
+		<string id="graphictype1">Sprite</string>
+		<string id="graphictype2">Tileset</string>
+		<string id="graphic">Graphic:</string>
+		<string id="preview">Graphic Preview</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventGraphic>
+	<EventMoveRoute>
+		<string id="title">Move Route</string>
+		<string id="thisevent">[THIS EVENT]</string>
+		<string id="player">Player</string>
+		<string id="commands">Commands</string>
+		
+		<string id="move">Move</string>
+		<string id="moveup">Move Up</string>
+		<string id="movedown">Move Down</string>
+		<string id="moveleft">Move Left</string>
+		<string id="moveright">Move Right</string>
+		<string id="moverandomly">Move Randomly</string>
+		<string id="movetowardplayer">Move Toward Player</string>
+		<string id="moveawayfromplayer">Move Away From Player</string>
+		<string id="stepforward">Step Forward</string>
+		<string id="stepbackward">Step Backward</string>
+		
+		<string id="turn">Turn</string>
+		<string id="faceup">Face Up</string>
+		<string id="facedown">Face Down</string>
+		<string id="faceleft">Face Left</string>
+		<string id="faceright">Face Right</string>
+		<string id="turn90clockwise">Turn 90* Clockwise</string>
+		<string id="turn90counterclockwise">Turn 90* Counter Clockwise</string>
+		<string id="turn180">Turn 180*</string>
+		<string id="turnrandomly">Turn Randomly</string>
+		<string id="turntowardplayer">Turn Toward Player</string>
+		<string id="turnawayfromplayer">Turn Away From Player</string>
+		
+		<string id="setspeed">Set Speed</string>
+		<string id="slowest">Slowest</string>
+		<string id="slower">Slower</string>
+		<string id="speednormal">Normal</string>
+		<string id="faster">Faster</string>
+		<string id="fastest">Fastest</string>
+		
+		<string id="setmovementfrequency">Set Movement Frequency</string>
+		<string id="lowest">Lowest</string>
+		<string id="lower">Lower</string>
+		<string id="frequencynormal">Normal</string>
+		<string id="higher">Higher</string>
+		<string id="highest">Highest</string>
+		
+		<string id="setattribute">Set Attribute</string>
+		<string id="walkinganimon">Walking Animation: On</string>
+		<string id="walkinganimoff">Walking Animation: Off</string>
+		<string id="directionfixon">Direction Fix: On</string>
+		<string id="directionfixoff">Direction Fix: Off</string>
+		<string id="walkthroughon">Walkthrough: On</string>
+		<string id="walkthroughoff">Walkthrough: Off</string>
+		<string id="showname">Show Name</string>
+		<string id="hidename">Hide Name</string>
+		<string id="setlayerbelow">Set Layer: Below Player</string>
+		<string id="setlayersame">Set Layer: Same as Player</string>
+		<string id="setlayerabove">Set Layer: Above Player</string>
+		
+		<string id="etc">Etc</string>
+		<string id="wait100">Wait 100ms</string>
+		<string id="wait500">Wait 500ms</string>
+		<string id="wait1000">Wait 1000ms</string>
+		<string id="setgraphic">Set Graphic...</string>
+		<string id="setanimation">Set Animation...</string>
+		
+		<string id="ignoreblocked">Ignore if Blocked</string>
+		<string id="repeatroute">Repeat Route</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventMoveRoute>
+	<EventSetAnimation>
+		<string id="title">Set Animation</string>
+		<string id="label">Animation:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSetAnimation>
+	<EventChangeFace>
+		<string id="title">Change Face</string>
+		<string id="label">Face:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChangeFace>
+	<EventChangeGender>
+		<string id="title">Change Gender</string>
+		<string id="label">Gender:</string>
+		<string id="gender0">Male</string>
+		<string id="gender1">Female</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChangeGender>
+	<EventChangeItems>
+		<string id="title">Change Player Items</string>
+		<string id="action">Action:</string>
+		<string id="action0">Give</string>
+		<string id="action1">Take</string>
+		<string id="item">Item:</string>
+		<string id="amount">Amount:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChangeItems>
+	<EventChangeLevel>
+		<string id="title">Change Level</string>
+		<string id="label">Set Level:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChangeLevel>
+	<EventChangeSpells>
+		<string id="title">Change Player Spells</string>
+		<string id="action">Action: </string>
+		<string id="action0">Add</string>
+		<string id="action1">Remove</string>
+		<string id="spell">Spell: </string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChangeSpells>
+	<EventChangeSprite>
+		<string id="title">Change Sprite</string>
+		<string id="label">Sprite:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChangeSprite>
+	<EventChatboxText>
+		<string id="title">Add Chatbox Text</string>
+		<string id="text">Text:</string>
+		<string id="color">Color:</string>
+		<string id="channel">Channel:</string>
+		<string id="channel0">Player</string>
+		<string id="channel1">Local</string>
+		<string id="channel2">Global</string>
+		<string id="commands">Chat Commands</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventChatboxText>
+	<EventCompleteQuestTask>
+		<string id="title">Complete Quest Task</string>
+		<string id="quest">Quest:</string>
+		<string id="task">Task:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventCompleteQuestTask>
+	<EventConditional>
+		<string id="title">Conditional</string>
+		<string id="type">Condition Type:</string>
+		<string id="condition0">Player Switch is...</string>
+		<string id="condition1">Player Variable is...</string>
+		<string id="condition2">Global Switch is...</string>
+		<string id="condition3">Global Variable is...</string>
+		<string id="condition4">Has item...</string>
+		<string id="condition5">Class is...</string>
+		<string id="condition6">Knows spell...</string>
+		<string id="condition7">Level or Stat is....</string>
+		<string id="condition8">Self Switch is....</string>
+		<string id="condition9">Power level is....</string>
+		<string id="condition10">Time is between....</string>
+		<string id="condition11">Can Start Quest....</string>
+		<string id="condition12">Quest In Progress....</string>
+		<string id="condition13">Quest Completed....</string>
+		<string id="condition14">Player Death</string>
+		<string id="condition15">No NPCs on Map</string>
+		<string id="condition16">Gender Is...</string>
+		
+		<!-- Shared Options -->
+		<string id="true">True</string>
+		<string id="false">False</string>
+		<string id="comparator">Comparator:</string>
+		<string id="comparator0">Equal To</string>
+		<string id="comparator1">Greater Than or Equal To</string>
+		<string id="comparator2">Less Than or Equal To</string>
+		<string id="comparator3">Greater Than</string>
+		<string id="comparator4">Less Than</string>
+		<string id="comparator5">Does Not Equal</string>
+		<string id="switchis">Is</string>
+		
+		<!-- Globals/Player Switch Is -->
+		<string id="playerswitch">Player Switch</string>
+		<string id="globalswitch">Global Switch</string>
+		<string id="switch">Switch:</string>
+		
+		<!-- Global/Player Variable Is -->
+		<string id="playervariable">Player Variable</string>
+		<string id="globalvariable">Global Variable</string>
+		<string id="variable">Variable:</string>
+		<string id="value">Value:</string>
+		
+		<!--Has Item -->
+		<string id="hasitem">Has Item</string>
+		<string id="hasatleast">Has at least:</string>
+		<string id="item">Item:</string>
+		
+		<!-- Class Is -->
+		<string id="classis">Class Is</string>
+		<string id="class">Class:</string>
+		
+		<!-- Knows Spell -->
+		<string id="knowsspell">Knows Spell</string>
+		<string id="spell">Spell:</string>
+		
+		<!-- Level or Stat Is -->
+		<string id="levelorstat">Level or Stat Is....</string>
+		<string id="levelstatitem">Level or Stat:</string>
+		<string id="level">Level</string>
+		<string id="levelstatvalue">Value:</string>
+		
+		<!-- Self Switch Is -->
+		<string id="selfswitchis">Self Switch Is</string>
+		<string id="selfswitch">Self Switch:</string>
+		<string id="selfswitch0">A</string>
+		<string id="selfswitch1">B</string>
+		<string id="selfswitch2">C</string>
+		<string id="selfswitch3">D</string>
+		
+		<!-- Power Is -->
+		<string id="poweris">Power Is</string>
+		<string id="power">Power:</string>
+		<string id="power0">Mod or Admin</string>
+		<string id="power1">Admin</string>
+		
+		<!-- Time is between -->
+		<string id="time">Time is between:</string>
+		<string id="startrange">Start Range:</string>
+		<string id="endrange">End Range:</string>
+		<string id="and">And</string>
+		<string id="to">to</string>
+		
+		<!-- Can Start Quest -->
+		<string id="canstartquest">Can Start Quest</string>
+		<string id="startquest">Quest:</string>
+		
+		<!-- Quest In Progress -->
+		<string id="questinprogress">Quest In Progress</string>
+		<string id="questprogress">Quest:</string>
+		<string id="questis">Is:</string>
+		<string id="questcomparator0">On Any Task</string>
+		<string id="questcomparator1">Before Task...</string>
+		<string id="questcomparator2">After Task...</string>
+		<string id="questcomparator3">On Task...</string>
+		<string id="task">Task:</string>
+		
+		<!-- Quest Completed -->
+		<string id="questcompleted">Quest Completed</string>
+		<string id="questcompletedlabel">Quest:</string>
+		
+		<!-- Gender Is -->
+		<string id="genderis">Gender Is..</string>
+		<string id="gender">Gender:</string>
+		<string id="male">Male</string>
+		<string id="female">Female</string>
+		
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventConditional>
+	<EventEndQuest>
+		<string id="title">End Quest</string>
+		<string id="label">Quest:</string>
+		<string id="skipcompletion">Do not run completion event?</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventEndQuest>
+	<EventGiveExperience>
+		<string id="title">Give Experience</string>
+		<string id="label">Give Experience:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventGiveExperience>
+	<EventLabel>
+		<string id="title">Label</string>
+		<string id="label">Label:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventLabel>
+	<EventGoToLabel>
+		<string id="title">Go To Label</string>
+		<string id="label">Label:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventGoToLabel>
+	<EventOpenBench>
+		<string id="title">Open Bench</string>
+		<string id="label">Bench:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventOpenBench>
+	<EventOpenShop>
+		<string id="title">Open Shop</string>
+		<string id="label">Shop:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventOpenShop>
+	<EventShowOptions>
+		<string id="title">Show Options</string>
+		<string id="text">Text:</string>
+		<string id="face">Face:</string>
+		<string id="option1">Option 1</string>
+		<string id="option2">Option 2</string>
+		<string id="option3">Option 3</string>
+		<string id="option4">Option 4</string>
+		<string id="commands">Chat Commands</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventShowOptions>
+	<EventPlayAnimation>
+		<string id="title">Play Animation</string>
+		<string id="animation">Animation:</string>
+		<string id="spawntype">Spawn Type:</string>
+		<string id="spawntype0">Specific Tile</string>
+		<string id="spawntype1">On/Around Entity</string>
+		
+		<string id="this">[THIS EVENT]</string>
+		<string id="player">Player</string>
+		
+		<string id="entity">Entity:</string>
+		<string id="relativelocation">Relative Location:</string>
+		<string id="spawnrelative">Spawn Relative to Direction</string>
+		<string id="rotaterelative">Rotate Relative to Direction</string>
+		
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventPlayAnimation>
+	<EventSpawnNpc>
+		<string id="title">Spawn Npc</string>
+		<string id="npc">NPC:</string>
+		<string id="spawntype">Spawn Type:</string>
+		<string id="spawntype0">Specific Tile</string>
+		<string id="spawntype1">On/Around Entity</string>
+		
+		<string id="this">[THIS EVENT]</string>
+		<string id="player">Player</string>
+		
+		<string id="entity">Entity:</string>
+		<string id="relativelocation">Relative Location:</string>
+		<string id="spawnrelative">Relative to Entity Direction</string>
+		
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSpawnNpc>
+	<EventPlayBGM>
+		<string id="title">Play BGM</string>
+		<string id="label">BGM:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventPlayBGM>
+	<EventPlayBGS>
+		<string id="title">Play BGS</string>
+		<string id="label">Sound:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventPlayBGS>
+	<EventSelfSwitch>
+		<string id="title">Set Self Switch</string>
+		<string id="label">Set Self Switch:</string>
+		<string id="selfswitch0">A</string>
+		<string id="selfswitch1">B</string>
+		<string id="selfswitch2">C</string>
+		<string id="selfswitch3">D</string>
+		<string id="true">True</string>
+		<string id="false">False</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSelfSwitch>
+	<EventSetAccess>
+		<string id="title">Set Access</string>
+		<string id="label">Access:</string>
+		<string id="access0">Regular User</string>
+		<string id="access1">In-Game Moderator</string>
+		<string id="access2">Owner/Designer (Allows editor access)</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSetAccess>
+	<EventSetClass>
+		<string id="title">Set Class</string>
+		<string id="label">Class:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSetClass>
+	<EventStartCommonEvent>
+		<string id="title">Start Common Event</string>
+		<string id="label">Common Event:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventStartCommonEvent>
+	<EventStartQuest>
+		<string id="title">Start Quest</string>
+		<string id="label">Quest:</string>
+		<string id="showwindow">Show Offer Window?</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventStartQuest>
+	<EventSetSwitch>
+		<string id="title">Set Switch</string>
+		<string id="label">Set Switch:</string>
+		<string id="player">Player Switch</string>
+		<string id="global">Global Switch</string>
+		<string id="to">to</string>
+		<string id="true">True</string>
+		<string id="false">False</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSetSwitch>
+	<EventShowText>
+		<string id="title">Show Text</string>
+		<string id="text">Text:</string>
+		<string id="face">Face:</string>
+		<string id="commands">Chat Commands</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventShowText>
+	<EventSetVariable>
+		<string id="title">Set Variable</string>
+		<string id="label">Variable:</string>
+		<string id="player">Player Variable</string>
+		<string id="global">Global Variable</string>
+		<string id="set">Set</string>
+		<string id="add">Add</string>
+		<string id="subtract">Subtract</string>
+		<string id="random">Random</string>
+		<string id="randomlow">Low:</string>
+		<string id="randomhigh">High:</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventSetVariable>
+	<EventWait>
+		<string id="title">Wait</string>
+		<string id="label">Wait: {00}ms</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventWait>
+	<EventWaitForRouteCompletion>
+		<string id="title">Wait for Move Route Completion</string>
+		<string id="label">Entity:</string>
+		<string id="player">Player</string>
+		<string id="this">[THIS EVENT]</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventWaitForRouteCompletion>
+	<EventWarp>
+		<string id="title">Warp</string>
+		<string id="okay">Ok</string>
+		<string id="cancel">Cancel</string>
+	</EventWarp>
+	<EventCommands>
+		<string id="dialogue">Dialogue</string>
+		<string id="showtext">Show Text</string>
+		<string id="showoptions">Show Options</string>
+		<string id="addchatboxtext">Add Chatbox Text</string>
+		
+		<string id="logicflow">Logic Flow</string>
+		<string id="setswitch">Set Switch</string>
+		<string id="setvariable">Set Variable</string>
+		<string id="setselfswitch">Set Self Switch</string>
+		<string id="conditionalbranch">Conditional Branch</string>
+		<string id="exiteventprocess">Exit Event Process</string>
+		<string id="label">Label</string>
+		<string id="gotolabel">Go To Label</string>
+		<string id="startcommonevent">Start Common Event</string>
+		
+		<string id="playercontrol">Player Control</string>
+		<string id="restorehp">Restore HP</string>
+		<string id="restoremp">Restore MP</string>
+		<string id="levelup">Level Up</string>
+		<string id="giveexperience">Give Experience</string>
+		<string id="changelevel">Change Level</string>
+		<string id="changespells">Change Spells</string>
+		<string id="changeitems">Change Items</string>
+		<string id="changesprite">Change Sprite</string>
+		<string id="changeface">Change Face</string>
+		<string id="changegender">Change Gender</string>
+		<string id="setaccess">Set Access</string>
+		<string id="changeclass">Change Class</string>
+		
+		<string id="movement">Movement</string>
+		<string id="warpplayer">Warp Player</string>
+		<string id="setmoveroute">Set Move Route</string>
+		<string id="waitmoveroute">Wait for Route Completion</string>
+		<string id="holdplayer">Hold Player</string>
+		<string id="releaseplayer">Release Player</string>
+		<string id="spawnnpc">Spawn NPC</string>
+		<string id="despawnnpcs">Despawn NPC</string>
+		
+		<string id="specialeffects">Special Effects</string>
+		<string id="playanimation">Play Animation</string>
+		<string id="playbgm">Play BGM</string>
+		<string id="fadeoutbgm">Fadeout BGM</string>
+		<string id="playsound">Play Sound</string>
+		<string id="stopsounds">Stop Sounds</string>
+		
+		<string id="questcontrol">Quest Control</string>
+		<string id="startquest">Start Quest</string>
+		<string id="completequesttask">Complete Quest Task</string>
+		<string id="endquest">End Quest</string>
+		
+		<string id="etc">Etc</string>
+		<string id="wait">Wait...</string>
+		
+		<string id="shopandbank">Shop and Bank</string>
+		<string id="openbank">Open Bank</string>
+		<string id="openshop">Open Shop</string>
+		<string id="opencraftingstation">Open Crafting Station</string>
+	</EventCommands>
+	<Colors>
+		<string id="0">Black</string>
+		<string id="1">White</string>
+		<string id="2">Blue</string>
+		<string id="3">Red</string>
+		<string id="4">Green</string>
+		<string id="5">Yellow</string>
+		<string id="6">Orange</string>
+		<string id="7">Purple</string>
+		<string id="8">Gray</string>
+		<string id="9">Cyan</string>
+		<string id="10">Pink</string>
+	</Colors>
+	<Errors>
+		<string id="disconnected">Disconnected!</string>
+		<string id="disconnectedclosing">You have lost connection to the server. The editor will now close.</string>
+		<string id="disconnectedsavecaption">Disconnected -- Export Map?</string>
+		<string id="disconnectedsave">You have been disconnected from the server! Would you like to export this map before closing this editor?</string>
+		<string id="importfailed">Cannot import map. Currently selected map is not an Intersect map file or was exported with a different version of the Intersect editor!</string>
+		<string id="importfailedcaption">Failed to import map!</string>
+	</Errors>
+</Strings>
